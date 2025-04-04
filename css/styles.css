@@ -38,7 +38,24 @@ img {
 }
 
 /* Header */
-
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.navigation .menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.address > ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
 .navigation .link {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -47,30 +64,33 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-right: 76px;
 }
 .logo {
   color: #2e2f42;
 }
-header > .container {
-  display: flex;
-  gap: 40px;
-}
 .navigation .menu-link {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   font-family: Raleway;
   color: #2e2f42;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .navigation .menu-link:hover,
 .navigation .menu-link:focus {
   color: #404bbf;
 }
 .address {
+  margin-left: auto;
   font-style: normal;
 }
 .address .link {
+  padding: 24px 0;
   font-size: 16px;
   color: #434455;
   line-height: 1.5;
@@ -80,6 +100,9 @@ header > .container {
 .address .link:focus {
   color: #404bbf;
 }
+
+/* Heading */
+
 .heading {
   background-color: #2e2f42;
 }
@@ -90,6 +113,11 @@ header > .container {
   text-align: center;
   color: #ffffff;
   letter-spacing: 0.02em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 188px;
+  margin-bottom: 48px;
 }
 .heading .button {
   font-family: "Roboto", sans-serif;
@@ -100,10 +128,31 @@ header > .container {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 188px;
+  padding: 16px 32px;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 .heading .button:hover,
 .heading .button:focus {
   background-color: #404bbf;
+}
+
+/* Strategy & Approach  */
+
+.approach {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.approach-list {
+  display: flex;
+  gap: 24px;
+}
+.approach-list .item {
+  width: calc((100% - 72px) / 4);
 }
 .approach .title {
   font-family: "Roboto", sans-serif;
@@ -112,6 +161,7 @@ header > .container {
   line-height: 1.2;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .approach .describe {
   font-size: 16px;
@@ -119,8 +169,13 @@ header > .container {
   color: #434455;
   letter-spacing: 0.02em;
 }
+
+/* Our Team  */
+
 .team {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team .title {
   font-weight: 700;
@@ -130,6 +185,14 @@ header > .container {
   color: #2e2f42;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 76px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team .team-list {
+  display: flex;
+  gap: 24px;
 }
 .team .photo-team {
   background-color: #ffffff;
@@ -141,6 +204,8 @@ header > .container {
   text-align: center;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 .team .position {
   font-size: 16px;
@@ -148,6 +213,14 @@ header > .container {
   text-align: center;
   color: #434455;
   letter-spacing: 0.02em;
+  padding-bottom: 32px;
+}
+
+/* Our Portfolio */
+
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .portfolio .title {
   font-weight: 700;
@@ -157,6 +230,13 @@ header > .container {
   color: #2e2f42;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  column-gap: 48px;
 }
 .portfolio .name {
   font-weight: 500;
