@@ -3,6 +3,12 @@ body {
   font-weight: 400;
   color: #434455;
   background-color: #ffffff;
+  min-width: 100%vh;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex-grow: 1;
 }
 h1,
 h2,
