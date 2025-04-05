@@ -12,13 +12,16 @@
     />
     <link
       rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Top line -->
-    <header>
+    <header class="header">
       <div class="container header-container">
         <nav class="navigation">
           <a class="link" href="./index.html"
@@ -31,7 +34,7 @@
           </ul>
         </nav>
         <address class="address">
-          <ul>
+          <ul class="address-list">
             <li>
               <a class="link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
@@ -54,7 +57,7 @@
       <!-- Strategy & Approach -->
       <section class="approach">
         <div class="container">
-          <h2>Strategy & Approach</h2>
+          <h2 class="visually-hidden">Strategy & Approach</h2>
           <ul class="approach-list">
             <li class="item">
               <h3 class="title">Strategy</h3>
@@ -148,7 +151,7 @@
         <div class="container">
           <h2 class="title">Our Portfolio</h2>
           <ul class="portfolio-list">
-            <li>
+            <li class="portfolio-item">
               <img
                 src="./images/portfolio-1.jpg"
                 alt="BankApp"
@@ -160,7 +163,7 @@
                 <p class="branch">App</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-item">
               <img
                 src="./images/portfolio-2.jpg"
                 alt="Payment"
@@ -172,7 +175,7 @@
                 <p class="branch">Marketing</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-item">
               <img
                 src="./images/portfolio-3.jpg"
                 alt="Laptop with phone"
@@ -184,7 +187,7 @@
                 <p class="branch">App</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-item">
               <img
                 src="./images/portfolio-4.jpg"
                 alt="Taxi Service"
@@ -196,7 +199,7 @@
                 <p class="branch">Marketing</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-item">
               <img
                 src="./images/portfolio-5.jpg"
                 alt="phone wallpaper"
@@ -208,7 +211,7 @@
                 <p class="branch">Design</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-item">
               <img
                 src="./images/portfolio-6.jpg"
                 alt="women on the street"
@@ -225,12 +228,10 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container footer-block">
-        <div class="link-logo">
-          <a class="link" href="./index.html"
-            >Web<span class="logo">Studio</span></a
-          >
-        </div>
+      <div class="container">
+        <a class="link" href="./index.html"
+          >Web<span class="logo">Studio</span></a
+        >
         <p class="info">
           Increase the flow of customers and sales for your business with
           digital marketing & growth solutions.
