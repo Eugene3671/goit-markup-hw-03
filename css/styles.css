@@ -42,7 +42,7 @@ img {
   margin: 0 auto;
 }
 
-/* Header */
+/* #region Header */
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -82,7 +82,6 @@ img {
   display: block;
   font-weight: 500;
   font-size: 16px;
-  font-family: Raleway;
   color: #2e2f42;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -107,8 +106,9 @@ img {
 .address .link:focus {
   color: #404bbf;
 }
+/* #endregion Header */
 
-/* Heading */
+/* #region Heading */
 
 .heading {
   background-color: #2e2f42;
@@ -152,8 +152,9 @@ img {
 .heading .button:focus {
   background-color: #404bbf;
 }
+/* #endregion Heading */
 
-/* Strategy & Approach  */
+/* #region Strategy & Approach  */
 
 .approach {
   padding-top: 120px;
@@ -193,8 +194,9 @@ img {
   color: #434455;
   letter-spacing: 0.02em;
 }
+/* #endregion Strategy & Approach  */
 
-/* Our Team  */
+/* #region Our Team  */
 
 .team {
   background-color: #f4f4fd;
@@ -243,8 +245,9 @@ img {
   color: #434455;
   letter-spacing: 0.02em;
 }
+/* #endregion Our Team  */
 
-/* Our Portfolio */
+/* #region Our Portfolio */
 
 .portfolio {
   padding-top: 120px;
@@ -291,8 +294,9 @@ img {
   color: #434455;
   letter-spacing: 0.02em;
 }
+/* #endregion Our Portfolio */
 
-/* FOOTER */
+/* #region FOOTER */
 
 .footer {
   background-color: #2e2f42;
@@ -320,3 +324,4 @@ img {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
+/* #endregion FOOTER */
